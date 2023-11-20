@@ -1,0 +1,60 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 1280px) {
+  html {
+    font-size: 55%;
+  }
+  .mainContainer {
+    width: 85%;
+  }
+}
+
+@media (max-width: 766px) {
+  html {
+    font-size: 45%;
+  }
+  .iconBox {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(8rem /* 140px */ * var(--tw-space-x-reverse));
+    margin-left: calc(8rem /* 140px */ * calc(1 - var(--tw-space-x-reverse)));
+  }
+  .mainContainer {
+    width: 70%;
+  }
+}
+
+@media (max-width: 670px) {
+  html {
+    font-size: 45%;
+  }
+
+  .Comment {
+    width: 20rem;
+  }
+  .mainContainer {
+    width: 40rem;
+  }
+}
+
+@media (max-width: 570px) {
+  html {
+    font-size: 40%;
+  }
+  .iconBox {
+    margin-right: calc(1rem /* 4px */ * var(--tw-space-x-reverse));
+    margin-left: calc(1rem /* 4px */ * calc(1 - var(--tw-space-x-reverse)));
+  }
+  .inputBox {
+    width: 98%;
+  }
+
+  .Comment {
+    width: 16rem;
+  }
+  .mainContainer {
+    width: 30rem;
+  }
+}
